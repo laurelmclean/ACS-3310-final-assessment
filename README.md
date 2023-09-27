@@ -1,11 +1,25 @@
-# `ordinalSuffix` Function
+# Ordinal Suffix Lib
+
+[![npm version](https://img.shields.io/npm/v/ordinal-suffix-lib.svg)](https://www.npmjs.com/package/ordinal-suffix-lib)
+[![npm downloads](https://img.shields.io/npm/dt/ordinal-suffix-lib.svg)](https://www.npmjs.com/package/ordinal-suffix-lib)
+
+[NPM Package](https://www.npmjs.com/package/ordinal-suffix-lib)
 
 The `ordinalSuffix` function is a utility function that takes a numeric input and returns its ordinal suffix (e.g., "st" for 1, "nd" for 2, "rd" for 3, and "th" for all other numbers).
 
 ## Usage
 
+1. **Installation:**
+    ```javascript
+   npm i ordinal-suffix-lib
+   ```
+
+    ```javascript
+   const ordinalSuffix = require('ordinal-suffix-lib');
+   ```
+   
+1. **Example:**
 ```javascript
-const { ordinalSuffix } = require('./ordinalSuffix');
 
 console.log(ordinalSuffix(1));    // 'st' -> 1st
 console.log(ordinalSuffix(2));    // 'nd' -> 2nd
@@ -17,7 +31,3 @@ console.log(ordinalSuffix(1001)); // 'st' -> 1001st
 console.log(ordinalSuffix(433));  // 'rd' -> 433rd
 ```
 
-## Installation
-
-1. Copy the `ordinalSuffix` function into your project.
-2. Use it as shown in the usage examples above.
