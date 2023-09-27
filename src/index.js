@@ -14,12 +14,4 @@ function ordinalSuffix(day) {
             return "".concat(day, "th");
     }
 }
-console.log(ordinalSuffix(1)); // 'st' -> 1st
-console.log(ordinalSuffix(2)); // 'nd' -> 2nd
-console.log(ordinalSuffix(3)); // 'rd' -> 3rd
-console.log(ordinalSuffix(4)); // 'th' -> 4th
-console.log(ordinalSuffix(11)); // 'th' -> 11th
-console.log(ordinalSuffix(502)); // 'nd' -> 502nd
-console.log(ordinalSuffix(1001)); // 'st' -> 1001st
-console.log(ordinalSuffix(433)); // 'rd' -> 433rd
 module.exports.ordinalSuffix = ordinalSuffix;
