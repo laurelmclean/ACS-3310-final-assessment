@@ -1,6 +1,6 @@
 {
   "name": "ordinal-suffix-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a utility function that takes a numeric input and returns its ordinal suffix",
   "main": "src/index.js",
   "scripts": {

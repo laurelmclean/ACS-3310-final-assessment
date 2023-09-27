@@ -15,9 +15,9 @@ The `ordinalSuffix` function is a utility function that takes a numeric input an
    ```
 
     ```javascript
-   const ordinalSuffix = require('ordinal-suffix-lib');
+   const { ordinalSuffix } = require('ordinal-suffix-lib');
    ```
-   
+
 1. **Example:**
 ```javascript
 
